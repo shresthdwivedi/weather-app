@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+body{
+    background-color: #000;
+}
+
+form input{
+    display: block;
+    background-color: transparent;
+    width: 50%;
+    padding: 1rem;
+    margin: 200px auto 0px;
+    border-top: #000;
+    border-right: #000;
+    border-left: #000;
+    border-bottom: white solid 2px;
+    color: #fff;
+    font-size: 1.5rem;
+    outline: none;
+}
+form input:focus{
+    border-bottom: orangered solid 2px;
+    outline: none;
+}
+
+ul{
+    display: flex;
+    margin: 0 auto 0;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0px;
+    cursor: pointer;
+}
+ul li{
+    padding:  10px 20px ;
+    width: 50%;
+    margin: auto;
+    background-color: #333;
+    border: #000 solid 2px;
+    color: #fff; 
+
+}
+
+ul li span{
+    color: grey;
+}
+
+.info{
+    display: none;
+    margin: 20px auto;
+}
+
+.icon{
+    display: block;
+    color: #fff;
+    background-color: transparent;
+    width: 50%;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+
+.degree{
+    display: block;
+    color: white;
+    font-weight: 200;
+    font-size: 3rem;
+    margin: 10px auto 10px;
+    padding: 0 30px;
+    text-align: center;
+}
+.name{
+    display: block;
+    text-align: center;
+    color: orangered;
+    font-weight: 900;
+    background-color: transparent;
+    margin: 10px auto 25px;
+    font-size: 2rem;
+}
+
+#change{ 
+    display: block;
+    margin:auto;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: orangered;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 10px auto ;
+    padding: 10px;
+}
+.wind, .feelsLike, .humidity{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.wind span, .feelsLike span, .humidity span{
+    color: grey;
+    font-size: 0.8rem;
+
+}
+
+h3{
+    margin: 0 auto;
+    font-weight: 600;
+}
