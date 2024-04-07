@@ -10,7 +10,7 @@ function debounce(func, timeout = 300){
 
 async function search(){
     const phrase = document.querySelector('input').value;
-    const response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${phrase}&limit=5&appid=${key}`)
+    const response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${phrase}&limit=5&appid=${key}`)
     const data = await response.json();
     const ul = document.querySelector('form ul');
     ul.innerHTML = '';
